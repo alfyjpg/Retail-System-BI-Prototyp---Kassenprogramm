@@ -3,12 +3,12 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD01V>
-    <DOMNAME>Z_LEARN_NR_TEST</DOMNAME>
+    <DOMNAME>Z_PRAXISAUFGABE003_L_TEXT</DOMNAME>
     <DDLANGUAGE>D</DDLANGUAGE>
     <DATATYPE>CHAR</DATATYPE>
-    <LENG>000012</LENG>
-    <OUTPUTLEN>000012</OUTPUTLEN>
-    <DDTEXT>Domäne für Schlüsselfelder</DDTEXT>
+    <LENG>000100</LENG>
+    <OUTPUTLEN>000100</OUTPUTLEN>
+    <DDTEXT>Domäne für Langetexte</DDTEXT>
    </DD01V>
   </asx:values>
  </asx:abap>

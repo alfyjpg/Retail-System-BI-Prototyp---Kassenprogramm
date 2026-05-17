@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <PROGDIR>
-    <NAME>Z_LEARN003_ARTIKELLOESCHEN</NAME>
+    <NAME>Z_LEARN003_NEUEPREIS</NAME>
     <SUBC>1</SUBC>
     <RSTAT>S</RSTAT>
     <RLOAD>D</RLOAD>
@@ -13,8 +13,8 @@
    <TPOOL>
     <item>
      <ID>R</ID>
-     <ENTRY>Report Z_LEARN003_ARTIKELLOESCHEN</ENTRY>
-     <LENGTH>33</LENGTH>
+     <ENTRY>Report Z_LEARN003_NEUEPREIS</ENTRY>
+     <LENGTH>27</LENGTH>
     </item>
    </TPOOL>
   </asx:values>

@@ -3,12 +3,14 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DD01V>
-    <DOMNAME>Z_LEARN_NR_TEST</DOMNAME>
+    <DOMNAME>Z_PRAXISAUFGABE003_BETRAG</DOMNAME>
     <DDLANGUAGE>D</DDLANGUAGE>
-    <DATATYPE>CHAR</DATATYPE>
-    <LENG>000012</LENG>
-    <OUTPUTLEN>000012</OUTPUTLEN>
-    <DDTEXT>Domäne für Schlüsselfelder</DDTEXT>
+    <DATATYPE>DEC</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000014</OUTPUTLEN>
+    <DECIMALS>000002</DECIMALS>
+    <SIGNFLAG>X</SIGNFLAG>
+    <DDTEXT>Dömane für Dezimalzahlen</DDTEXT>
    </DD01V>
   </asx:values>
  </asx:abap>
