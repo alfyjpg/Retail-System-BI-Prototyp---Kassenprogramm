@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Bitte Eingabe Feldern ausfüllen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Der Artikel exisiteirt schon in der Liste</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ungültige MWST-Klasse(Nicht in Tabelle enthalten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Etwas schief gelaufen. Bitte nochmale versuchen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Fehler aufgetreten</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Kein Artikel unter dieser Artikelnummer gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Eigabefeldern dürfen nicht leer sein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Artikel ist nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Gegebene Beitrag reicht nicht zum Bezahlen aus!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Der Eingabefeld muss nicht leer sein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Kein Artikel unter dieser ARTIKELNUMMER gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Fehler aufgetreten</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
