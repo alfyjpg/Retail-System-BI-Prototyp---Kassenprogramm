@@ -79,6 +79,66 @@
      <MSGNR>011</MSGNR>
      <TEXT>Fehler aufgetreten</TEXT>
     </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Falsche Benutzername oder Passwort.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Artikelnummer darf nicht fehlen</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Artikel wurde nicht gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Anzahl der Artikel darf nicht fehlen oder keliner als 0 sein</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Artikel wurde erfolgreich erfasst</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Einkaufliste ist leer</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Neue Artikel dürfen nicht erfasst solange der Beleg nicht ausgeglichen wu</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Abmelden geht nach nach Zahlung der offenen Rechnung</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Zahlen ohne Geld ist nicht möglich</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZLEARN_ENTWNACH</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Bar ist kleiner als Rechnungsbetrag</TEXT>
+    </T100>
    </T100>
   </asx:values>
  </asx:abap>
