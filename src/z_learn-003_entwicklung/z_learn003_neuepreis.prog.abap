@@ -39,12 +39,12 @@ START-OF-SELECTION.
       COMMIT WORK.
       WRITE: '------------ Preis des Artikels wurde geändert.------------'.
     ELSE.
-      MESSAGE 'Fehler aufgetreten' TYPE 'E' .
+      MESSAGE E004(ZLEARN_ENTWNACH) .
       ROLLBACK WORK.
     ENDIF.
 
   ELSE.
-    MESSAGE 'Kein Artikel unter dieser Artikelnummer gefunden' TYPE 'E'.
+        MESSAGE E005(ZLEARN_ENTWNACH) .
   ENDIF.
 
 

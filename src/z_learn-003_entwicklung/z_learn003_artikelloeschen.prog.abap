@@ -15,7 +15,7 @@ DATA: tab_art TYPE zaufgabe_art,
 START-OF-SELECTION.
 
   IF a_nummer IS INITIAL.
-    MESSAGE 'Der Eingabefeld muss nicht leer sein.' TYPE 'i'.
+    MESSAGE i009(ZLEARN_ENTWNACH).
   ENDIF.
 
 *&--------------- Überprüfen der Artikelnummer --------------------*
@@ -25,7 +25,7 @@ START-OF-SELECTION.
 
   CASE sy-subrc.
     WHEN 4.
-      MESSAGE 'Kein Artikel unter dieser ARTIKELNUMMER gefunden' TYPE 'i'.
+      MESSAGE E010(ZLEARN_ENTWNACH).
 
 *&--------- Datensatz in Tabelle löschen und Quittung ------*
     WHEN 0.
@@ -36,7 +36,7 @@ START-OF-SELECTION.
         WRITE : 'Der Artikel: ' , old_art , 'wurde erfolgreich gelöscht'.
       ELSE.
         ROLLBACK WORK.
-        MESSAGE 'Fehler aufgetreten' TYPE 'E'.
+        MESSAGE E011(ZLEARN_ENTWNACH).
       ENDIF.
 
   ENDCASE.

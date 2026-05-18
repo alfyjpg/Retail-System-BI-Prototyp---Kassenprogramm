@@ -19,7 +19,7 @@ DATA: tab_mwst TYPE zaufgabe_mwst,
 START-OF-SELECTION.
 
   IF a_nummer IS  INITIAL AND kurztext IS INITIAL AND vk_preis IS INITIAL AND mwst_kls IS INITIAL.
-    MESSAGE 'Bitte Eingabe Feldern ausfüllen' TYPE 'E'.
+    MESSAGE E000(ZLEARN_ENTWNACH).
   ENDIF.
 
 *&--------------- Überprüfen der Artikelnummer --------------------*
@@ -28,7 +28,7 @@ START-OF-SELECTION.
 
   CASE sy-subrc.
     WHEN 0.
-      MESSAGE  a001(zlearn077).
+      MESSAGE  a001(zlearn_entwnach).
     WHEN 4.
 
 *&--------------- Überprüfen der MWST-Klasse --------------------*
@@ -37,7 +37,7 @@ START-OF-SELECTION.
 
       CASE sy-subrc.
         WHEN 4.
-          MESSAGE 'Ungültige MWST-Klasse(Nicht in Tabelle enthalten)' TYPE 'E'.
+           MESSAGE E002(ZLEARN_ENTWNACH).
         WHEN 0.
 
 *&--------------- Datensatz aufbereiten -----------------*
@@ -56,7 +56,7 @@ START-OF-SELECTION.
 
           IF sy-subrc <> 0.
             ROLLBACK WORK.
-            MESSAGE a002(zlearn077).
+            MESSAGE a003(ZLEARN_ENTWNACH).
           ELSE.
             WRITE 'Datensatz wurde hinzugefügt.'.
           ENDIF.

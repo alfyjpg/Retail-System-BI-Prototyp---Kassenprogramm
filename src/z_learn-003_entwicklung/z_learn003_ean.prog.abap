@@ -34,7 +34,7 @@ START-OF-SELECTION.
 *--------------Eingabefeldern überprüfen--------------
 
   IF EAN_Nr IS INITIAL OR bar IS INITIAL.
-    MESSAGE 'Eigabefeldern dürfen nicht leer sein' TYPE 'E' .
+    MESSAGE  E006(zlearn_entwnach).
   ENDIF.
 
 *---------------Artikelinformation aufrufen--------------
@@ -43,7 +43,7 @@ START-OF-SELECTION.
   WHERE artikelnr = EAN_Nr.
 
   IF sy-subrc <> 0.
-    MESSAGE  'Artikel ist nicht vorhanden' TYPE 'A'.
+   MESSAGE  a007(zlearn_entwnach).
 
 
   ELSE.
@@ -51,7 +51,7 @@ START-OF-SELECTION.
 *--------------Bezahlungsmöglichkeite überprüfen--------------
 
     IF bar < tab_art-verkpreis.
-      MESSAGE 'Gegebene Beitrag reicht nicht zum Bezahlen aus!'  TYPE 'E'.
+     MESSAGE  E008(zlearn_entwnach).
     ENDIF.
 
 *--------------Artikel ausgeben--------------
